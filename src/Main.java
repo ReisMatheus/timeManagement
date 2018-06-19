@@ -9,11 +9,12 @@
  * @author ubuntunote
  */
 import gui.mainFrame;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args){
         mainFrame frame = new mainFrame();
-        frame.initFrame();
-        frame.addComponents(1);
+        ArrayList<User> task = new ArrayList<User>();
+        frame.runGUI();
     }
 }
